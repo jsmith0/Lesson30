@@ -13,8 +13,17 @@ public class Main {
             MyX = MyX + X;
             System.out.println(MyX);
         }
+        System.out.println("");
 
 
+
+        //time for the new stuff
         //---------------------------------------------
+        //this is the String Buffer in use
+
+        StringBuffer sb = new StringBuffer();
+        for (int i = 0; i < 8; i++){
+            sb.append("X");
+        }
     }
 }
