@@ -23,7 +23,12 @@ public class Main {
 
         StringBuffer sb = new StringBuffer();
         for (int i = 0; i < 8; i++){
-            sb.append("X");
+            for(int j = 1; j <= i; j++) {
+                sb.append("X");
+            }
+            sb.append("\n");
         }
+        String s = sb.toString();
+        System.out.println(s);
     }
 }
